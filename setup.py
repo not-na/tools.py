@@ -26,5 +26,9 @@ from distutils.core import setup
 setup(name='tools',
       version='1.1',
       py_modules=['tools'],
+      author='notna',
+      author_email='notna@apparat.org',
+      requires=["pygame","numpy"],
+      provides=["tools (1.1)"]
       )
 
